@@ -5,8 +5,8 @@ import { useState } from 'react';
 import '../app/globals.css';
 
 const themes = {
-  light: 'light',
-  dark: 'dark',
+  light: 'emerald',
+  dark: 'dim',
 };
 
 const ThemeToggle = () => {

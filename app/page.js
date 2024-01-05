@@ -12,7 +12,7 @@ const HomePage = () => {
             achieve your goals.
           </p>
           <Link href='/chat'>
-            <button className='btn btn-secondary'>Get Started</button>
+            <button className='btn btn-primary'>Get Started</button>
           </Link>
         </div>
       </div>

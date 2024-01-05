@@ -33,3 +33,27 @@
 .gptHeader {
   @apply text-xl font-bold text-primary mr-auto;
 }
+
+.chatContain {
+  @apply min-h-[calc(100vh-6rem)] grid grid-rows-[1fr,auto];
+}
+
+.messages {
+  @apply text-5xl;
+}
+
+.form {
+  @apply max-w-4xl pt-12;
+}
+
+.inputBox {
+  @apply join w-full;
+}
+
+.inputRectangle {
+  @apply input input-bordered join-item w-full;
+}
+
+.submitQuestionBtn {
+  @apply btn btn-primary join-item;
+}
