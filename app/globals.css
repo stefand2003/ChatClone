@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  @apply px-4 w-80 min-h-full bg-base-300 py-12 grid grid-rows-[auto,1fr,auto];
+}
+
+.links {
+  @apply menu text-base-content;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.member-profile {
+  @apply px-4 flex items-center gap-2;
+}
+
+.theme-toggle {
+  @apply btn btn-sm btn-outline;
+}
+
+.sidebarHeaderContainer {
+  @apply flex items-center mb-4 gap-4 px-4;
+}
+
+.aiIcon {
+  @apply w-8 h-8 text-primary;
+}
+
+.gptHeader {
+  @apply text-xl font-bold text-primary mr-auto;
+}
