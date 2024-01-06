@@ -57,3 +57,23 @@
 .submitQuestionBtn {
   @apply btn btn-primary join-item;
 }
+
+.message {
+  @apply flex py-6 -mx-8 px-8  leading-loose border-b border-base-300;
+}
+
+.avatar {
+  @apply mr-4;
+}
+
+.loading {
+  @apply animate-pulse;
+}
+
+.userResponse {
+  @apply bg-base-200;
+}
+
+.chatResponse {
+  @apply bg-base-100;
+}
